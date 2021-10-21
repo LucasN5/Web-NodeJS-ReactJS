@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "fanny.db.elephantsql.com",
+   "port": 5432,
+   "username": "anqtypwq",
+   "password": "sbtL50yTIYb-t2TKudAQsQ61_KF8RRqh",
+   "database": "anqtypwq",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
