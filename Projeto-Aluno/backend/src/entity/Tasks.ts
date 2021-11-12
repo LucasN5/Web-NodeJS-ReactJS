@@ -15,7 +15,7 @@ export class Tasks{
     Data_de_Nascimento: string;
 
     @Column()
-    RA: number;
+    RA: number
 
     @Column()
     Endereço: string;
