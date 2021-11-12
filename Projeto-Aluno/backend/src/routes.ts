@@ -18,7 +18,9 @@ routes.post('/tasks', saveTask)
 routes.get('/tasks/:id', getTask)
 routes.put('/tasks/:id', updateTask)
 routes.delete('/tasks/:id', deleteTask)
-routes.patch('/tasks/:id', finishedTask)
+routes.patch('/tasks/:id',finishedTask)
 
 export default routes
 
+//'/tasks'
+//'/tasks/:id'
